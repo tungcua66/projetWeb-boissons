@@ -1,0 +1,141 @@
+.btn-primary{
+    display: inline-block;
+}
+
+.list_indent
+{
+   margin-left: 3%;
+}
+.dropdown-menu>li
+{	  position:relative;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+    cursor:pointer;
+}
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    display:none;
+    margin-top: -1px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-left-color:#fff;
+    box-shadow:none;
+}
+
+.dropdown-menu>li>a{
+    border: 1px solid #0077b6;
+   
+}
+
+.dropdown-menu>li>a:hover{
+    background-color: #90e0ef;
+}
+
+.right-caret:after
+ {  content:"";
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #023e8a;
+    display: inline-block;
+    height: 0;
+    opacity: 0.8;
+    vertical-align: middle;
+    width: 0;
+    margin-left:5px;
+}
+.left-caret:after
+{	  content:"";
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-right: 4px solid #023e8a;
+    display: inline-block;
+    height: 0;
+    opacity: 0.8;
+    vertical-align: middle;
+    width: 0;
+    margin-left:5px;
+}
+
+#recipesSearchInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#recipesList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#recipesList li a {
+  border: 1px solid #0077b6;
+  border-left: 5px solid #0077b6;
+  margin-top: -1px; /* Prevent double borders */
+  
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  width: 61em;
+}
+#recipesList li a:hover:not(.header) {
+    background-color: #90e0ef;
+  }
+  
+
+
+h2{
+    border:paleturquoise 3em;
+    text-decoration: underline #03045e;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.dropdown{
+    display: inline;
+}
+
+#clearFilters, #recipesSearchInput
+{
+    display: inline-block;
+    position:relative;
+    
+}
+
+#clearFilters
+{
+    left:85%;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#recipesSearchInput{
+    width: 80%;
+    right:9%;
+}
+
+.btn{
+    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #00b4d8;
+    color:#f9fcfd;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #90e0ef;
+}
